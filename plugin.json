@@ -1,0 +1,11 @@
+﻿{
+  "Group": "ExternalAuth methods",
+  "FriendlyName": "Weixin authentication",
+  "SystemName": "ExternalAuth.Weixin",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.00" ],
+  "Author": "Simon",
+  "DisplayOrder": 5,
+  "FileName": "Nop.Plugin.ExternalAuth.Weixin.dll",
+  "Description": "This plugin enables Weixin authentication (login using Weixin account)"
+}

@@ -1,0 +1,9 @@
+﻿@{
+    Layout = "";
+    Html.AddCssFileParts("~/Plugins/ExternalAuth.Weixin/Content/weixinstyles.css");
+}
+<div class="am-icon-wechat fa-icon-wechat">
+    <div class="buttons">
+        <a asp-controller="WeixinAuthentication" asp-action="login" asp-route-returnurl="@Context.Request.Query["ReturnUrl"]" class="weixin-btn"></a>
+    </div>
+</div>
